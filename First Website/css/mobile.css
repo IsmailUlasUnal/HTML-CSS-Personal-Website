@@ -1,0 +1,26 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    height: 90px;
+    /* overflow: hidden; tasma olursa bunu kullanip engelle biz direkt height arttirdik*/
+}
+
+/* BIZ EKLEDIK TAM OLARAK NE YAPTIGINA FALAN BAK INCELE */
+#nawbar li {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+#training .items {
+    flex-direction: column;
+}
+
+#training .items .item {
+    width: 100%
+}
+
+.courses .course {
+    flex-direction: column;
+}

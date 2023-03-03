@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstWebsite</title>
+    <meta name="keywords" content="html, css, frontend, c++, java, python, oop, unity, cv, personal, website">
+    <meta name="description" content="first frontend website for learning html and css basics">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- Mobile -->
+    <link  rel="stylesheet" media="(max-width:500px)"  href="css/mobile.css">
+    
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet"> 
+
+    <!-- fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar"> 
+                <h1 class="heading-small">Ismail Ulas Unal</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Training</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/Ekran Resmi 2022-10-28 12.42.54.png" alt="Kurapika">
+
+        <div class="name text-center">
+            <h2 class="heading-big ">Ismail Ulas Unal</h2>
+            <p class=" heading-small"> Computer Science | Hacettepe University</p>
+        </div>
+    
+     
+        <a class="btn btn-light-blue" href="#courses">Course Page</a>
+  
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+
+        <h3 class="text-center heading-small">Training</h3>
+        <div class="items">
+            <article class="item" >
+                <i class="fa fa-pencil-alt"></i>
+                <h4>Sinif ici egitimler</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, possimus.</p>
+            </article>
+
+            <article class="item" >
+                <i class="fa fa-pencil-alt"></i>
+                <h4>Sinif ici egitimler</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, possimus.</p>
+            </article>
+
+            <article class="item" >
+                <i class="fa fa-pencil-alt"></i>
+                <h4>Sinif ici egitimler</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, possimus.</p>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="courses" >
+        <h3 class="text-center heading-small" >Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <!-- course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/learn-python-with-udemy-courses-online-1.jpg" alt="Bu da kurapika">
+                        <span>Lorem, ipsum dolor.</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                                Lorem, ipsum.
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, distinctio.
+                        </div>
+                        <div class="instructor">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="rating">
+                            4.99/5 (34253125)
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- course 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/learn-python-with-udemy-courses-online-1.jpg" alt="Bu da kurapika">
+                        <span>Lorem, ipsum dolor.</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                                Lorem, ipsum.
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, voluptatibus.
+                        </div>
+                        <div class="instructor">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="rating">
+                            4.99/5 (34253125)
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- course 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/learn-python-with-udemy-courses-online-1.jpg" alt="Bu da kurapika">
+                        <span>Lorem, ipsum dolor.</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                                Lorem, ipsum.
+                        </div>
+                        <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, at?
+                        </div>
+                        <div class="instructor">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="rating">
+                            4.99/5 (34253125)
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-small" >Beni Ara</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+
+                    <input type="text" 
+                    class="form-control" 
+                    name="name" 
+                    id="name" 
+                    placeholder="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input type="text" 
+                    class="form-control" 
+                    name="email" 
+                    id="email" 
+                    placeholder="e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your message..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-light-blue btn-block">Submit</button>
+            </form>
+
+            <ul>
+                <li><a href="https://www.facebook.com/ulas.unal.5621/"><i class="fab fa-facebook"></i>   facebook</a></li>
+                <li><a href="https://twitter.com/home"><i class="fab fa-twitter"></i>   twitter</a></li>
+                <li><a href="https://www.instagram.com/ulasunall/"><i class="fab fa-instagram"></i>   instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
