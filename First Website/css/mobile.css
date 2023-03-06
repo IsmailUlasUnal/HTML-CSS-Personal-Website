@@ -3,10 +3,11 @@
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     height: 90px;
-    /* overflow: hidden; tasma olursa bunu kullanip engelle biz direkt height arttirdik*/
+    /* 
+    overflow: hidden;
+    /*
 }
 
-/* BIZ EKLEDIK TAM OLARAK NE YAPTIGINA FALAN BAK INCELE */
 #nawbar li {
     overflow: hidden; 
     text-overflow: ellipsis;
